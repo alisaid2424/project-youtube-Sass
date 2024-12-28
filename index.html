@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Sass Three Youtube</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" >
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/vendorsCss/glightbox.min.css">
+    <link rel="stylesheet" href="css/youtube.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="d-flex justify-content-between align-items-center  px-3">
+        <div class="left-section d-flex align-items-center ">
+            <i class="material-icons">menu</i>
+            <img class=" ps-4" src="images/youtube-logo.png" alt="">
+        </div>
+        <div class="mid-section d-md-flex  align-items-center d-none  ">
+            <form action="" class="d-flex align-items-center ">
+                <input class=" p-3 fs-6  "  type="text" placeholder="Search" />
+                <button class=" text-center"><i class="material-icons ">search</i></button>
+            </form>
+            <i class="material-icons mic  rounded-circle d-flex justify-content-center align-items-center">mic</i>
+        </div>
+        <div class="right-section d-flex ">
+            <a class="pe-4" href="#"><i class="material-icons mic">video_call</i></a>
+            <a class="pe-4" href="#"><i class="material-icons mic">apps</i></a>
+            <a class="pe-4" href="#"><i class="material-icons mic">notifications</i></a>
+            <a class="pe-4" href="#"><i class="material-icons mic">account_circle</i></a>
+        </div>
+    </header>
+
+    <div class="content-area d-flex">
+        <aside class="h-100 bg-white overflow-y-auto">
+            <nav class="my-3 w-100 pe-2">
+                <a href="#" class="nav-link  active">
+                    <i class="material-icons">home</i>
+                    <span class="active-span">Home</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">explore</i>
+                    <span >Explore</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">subscriptions</i>
+                    <span >Subscriptions</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">ondemand_video</i>
+                    <span >Originals</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons">play_circle_outline</i>
+                    <span >Youtube Music</span>
+                </a>
+                <hr>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">video_library</i>
+                    <span >Library</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons">history</i>
+                    <span >History</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">smart_display</i>
+                    <span >Your Videos</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">watch_later</i>
+                    <span >Watch Later</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">download</i>
+                    <span >Downloads</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <i class="material-icons-outlined">thumb_up</i>
+                    <span >Liked Videos</span>
+                </a>
+                <hr>
+                <p class="text-uppercase">Subscriptions</p>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/photo-img-creater.avif" alt="">
+                    <span >Ali Asy</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/video2-img-creater.jpg" alt="">
+                    <span >Osama Ibrahim</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/video12-img-creater.jpg" alt="">
+                    <span >Samy Mahmed</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/video4-img-creater.jpg" alt="">
+                    <span >Omar Said</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/video5-img-creater.jpg" alt="">
+                    <span >Mahmed Salah</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/video6-img-creater.jpg" alt="">
+                    <span >Nour Ali</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/video7-img-creater.jpg" alt="">
+                    <span >Samer Sayed</span>
+                </a>
+                <a href="#" class="nav-link  ">
+                    <img class="img-creatorMain" src="images/video11-img-creater.jpg" alt="">
+                    <span >Aya Salem</span>
+                </a>
+            </nav>
+        </aside>
+        <main class="p-3 w-100 h-100  overflow-y-auto">
+            <div class="row g-3" id="showData">
+
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=0MPLzRDCFAg">
+                                <img class="w-100 h-100" src="images/video1.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video1-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    يوم في حياة رائـد فضاء | الدحيح
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    New Media Academy Life
+                                </a>
+                                <p>3.88M Views • 3 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=Tbm_dUb3hSg">
+                                <img class="w-100 h-100" src="images/video2.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video2-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    "موسم صفري❌ || الدنيا رمضان يا حكم يا ظالم 💔
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    BROZ
+                                </a>
+                                <p>704K Views • 2 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=UrX2U3nT3bE">
+                                <img class="w-100 h-100" src="images/video3.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video3-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    كل المسافه والفتره تطول ذنوبك بتتغفر استاذ حزلقوم اللي قال كده🤣😂|هتموت ضحك من الكبير وهو رايح العمره
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    MAD Media
+                                </a>
+                                <p>57.8K Views • 5 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=trpx6kAMAEs">
+                                <img class="w-100 h-100" src="images/video4.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video4-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    اكبر تحدي طبخ منتظر:👩‍🍳البنت ضد ابوها-سفرة العتاولة 🥩 ضد سفرة الفرافير🥘الجايزة دهب الآم😲تألق
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    hamdy and wafaa family
+                                </a>
+                                <p>7.77M Views • 1 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=bM8V8-7K6Co">
+                                <img class="w-100 h-100" src="images/video5.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video5-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    Ramy Gamal - Ebn Embarh [Official Lyrics video] | رامي جمال - ابن امبارح
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    Ramy Gamal
+                                </a>
+                                <p>234K Views • 6 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=hdRByxxoLn8">
+                                <img class="w-100 h-100" src="images/video6.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video6-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    مدحت صالح و ابيوسف فى تحدى ريد بُل مزيكا صالونات
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    Red Bull SIKA
+                                </a>
+                                <p>175K Views • 7 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=Cidyy2n4_8I">
+                                <img class="w-100 h-100" src="images/video7.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video7-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    The Day Ronaldinho Showed Zidane Who Is The Boss.
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    RDHDComps
+                                </a>
+                                <p>1.31M Views • 3 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=WaXeTGy58vE">
+                                <img class="w-100 h-100" src="images/video8.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video8-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    هل تعلم ماذا يحدث لمن يعود للنوم بعد صلاةالفجر؟
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    عمر عبد الكافى
+                                </a>
+                                <p>9.3M Views • 1 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=hdZsPrQEE7c">
+                                <img class="w-100 h-100" src="images/video9.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video9-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    اشهر اكل شوارع في مصر 🇪🇬 اكلت فسييييخ
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    S7S fewscxa
+                                </a>
+                                <p>8.6M Views • 4 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=cx-6HAmRhAI">
+                                <img class="w-100 h-100" src="images/video10.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video10-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    الهضبه عمرو دياب | البوم مكانك 2024 | مكانك|Amr Diab Makank New Album Exclusive
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    Music4hope
+                                </a>
+                                <p>3.08K Views • 2 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=QTOHVAt-CGs">
+                                <img class="w-100 h-100" src="images/video11.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video11-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    حصريا فيلم/ البطه الصفراء🦆~ لا يعرض على التلفاز!!. بدقه عاليه F.HD
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    عالم الأفلام والمسلسلات1
+                                </a>
+                                <p>361 Views • 9 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6   col-lg-4 ">
+                    <div class="video ">
+                        <div class=" video-img mb-2 rounded-3 overflow-hidden" style="height: 200px;">
+                            <a class="glightbox" href="https://www.youtube.com/watch?v=Mau5E9r7CxQ">
+                                <img class="w-100 h-100" src="images/video12.webp" alt="">
+                                <div class="play-circle position-absolute top-50 start-50 translate-middle">
+                                    <span>
+                                    <i class="material-icons-outlined">play_circle</i>
+                                    </span>
+                                    <span class="line-border one"></span>
+                                    <span class="line-border two"></span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="video-details d-flex align-items-center gap-3">
+                            <img class="img-creator " src="images/video12-img-creater.jpg" alt="">
+                            <div class="title ">
+                                <a class="video-title " href="#">
+                                    الحكاية | نشتري ولا نستنى ؟ أزمة العربيات وسوق المستعمل والسيارات الكهربائية.. عمرو أديب يفتح الملف
+                                </a>
+                                <a class="video-creator d-block " href="#">
+                                    الحكاية
+                                </a>
+                                <p>2.44M Views • 3 Months Age</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </main>
+    </div>
+
+    <script src="js/vendorsjs/glightbox.min.js"></script>
+    <script type="text/javascript">
+            const lightbox = GLightbox({
+            'type': 'video',
+            'source': 'youtube', //vimeo, youtube or local
+            'width': 900,
+        });
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

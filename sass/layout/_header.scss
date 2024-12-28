@@ -1,0 +1,61 @@
+@use "../helpers/varibles" as * ;
+/* Start Header */
+header{
+    height: 56px;
+    .left-section{
+        cursor: pointer;
+        img{
+            max-width: 120px;
+        }
+    }
+    .mid-section{
+        form{
+            input{
+                height: 40px;
+                width:  628px;
+                outline: none;
+                border: 1px solid #d3d3d3;
+                border-right: none;
+                border-radius: 50px 0 0 50px;
+                [dir="rtl"] &{
+                    border-left: none;
+                    border-radius: 0 50px 50px 0;
+                }
+                @media #{$maxMediem} {
+                    width: 450px;
+                }
+                @media #{$maxSmall} {
+                    width: 250px;
+                }
+            }
+            button{
+                width: 64px;
+                padding-top: 4px;
+                height: 40px;
+                background-color: #f8f8f8;
+                border: 1px solid #d3d3d3;
+                border-radius: 0 50px 50px 0;
+                [dir="rtl"] &{
+                    border-radius: 50px 0 0 50px;
+                }
+                cursor: pointer;
+                &:hover{
+                    background-color: #f0f0f0;
+                    border-color: #c6c6c6;
+                }
+            }
+        }
+        .mic{
+            width: 40px;
+            height: 40px;
+            background-color: #f9f9f9;
+            cursor: pointer;
+            margin-left: 10px;
+            [dir="rtl"] &{
+                margin-left: 0;
+                margin-right: 10px;
+            }
+        }
+    }
+}
+/* End Header */

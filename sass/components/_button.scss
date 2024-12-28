@@ -1,0 +1,51 @@
+.main-btn-1{
+    background-color:$redColor ;
+    color: $yellowColor ;
+    padding: .5rem 1rem;
+    &:hover{
+        background-color:$greenColor ;
+        color: $darkColor ;
+    }
+}
+
+.main-btn-2{
+    background-color:rgba($mainColor, .8) ;
+    color: white;
+    min-width: 120px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    @include prifixer(transition , .4s , webKit Moz O);
+    &:hover{
+        background-color:$mainColor ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+
+@use "../helpers/mixins" as * ;
+
+/* Start glogal rules */
+*{
+    margin: 0;
+    padding: 0;
+    @include prifixer(box-sizing , border-box , webKit Moz O );
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* End glogal rules */
